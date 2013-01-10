@@ -3,7 +3,7 @@ require 'sinatra'
 require 'twilio-ruby'
  
 # put your default Twilio Client name here, for when a phone number isn't given
-default_client = "webrtc-phone"
+default_client = "jenny"
  
 get '/' do
     # Find these values at twilio.com/user/account

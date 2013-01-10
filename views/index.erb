@@ -11,7 +11,7 @@
       type="text/css" rel="stylesheet" />
     <script type="text/javascript">
  
-    Twilio.Device.setup("<%= token %>", {debug: true});
+    Twilio.Device.setup("<%= token %>", {debug: true, rtc: false});
  
       Twilio.Device.ready(function (device) {
         $("#log").text("Ready");
